@@ -1,4 +1,4 @@
-import Contact from "@/components/common/Contact";
+import ContactComponent from "@/components/common/ContactComponent";
 import Landing from "@/components/Homepage/Landing";
 import Process from "@/components/Homepage/Process";
 import ServiceSection from "@/components/Homepage/ServiceSection";
@@ -16,7 +16,7 @@ export default function Home() {
       <Process />
       <Team />
       <Testomonials/>
-      <Contact/>
+      <ContactComponent/>
     </main>
   );
 }

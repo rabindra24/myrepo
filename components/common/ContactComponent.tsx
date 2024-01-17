@@ -6,9 +6,9 @@ import { Button } from "../ui/button";
 import { Textarea } from "../ui/textarea";
 import Image from "next/image";
 
-const Contact = () => {
+const ContactComponent = () => {
   return (
-    <section className="text-gray-300 body-font relative flex md:flex-row flex-col h-full">
+    <section className="text-gray-300 body-font relative flex md:flex-row flex-col h-full md:px-10 px-5 ">
       <div className="container px-5 py-24   lg:w-1/2">
         <div className="flex flex-col  mb-12">
          <Heading title="Contact Us" styles="mb-3"/>
@@ -68,4 +68,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactComponent;

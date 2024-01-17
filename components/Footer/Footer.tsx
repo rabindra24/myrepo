@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-gray-300 body-font">
-      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <footer className="text-gray-300 body-font bg-background py-10">
+      <div className="container px-5 py-14 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <span className="flex title-font font-medium items-center md:justify-start justify-center ">
             <svg
@@ -25,7 +25,7 @@ const Footer = () => {
             Air plant banjo lyft occupy retro adaptogen indego
           </p>
           <p className="text-gray-500 mt-5 text-sm text-center sm:text-left">
-            © {new Date().getFullYear()} The Alpha Rig —
+            © {new Date().getFullYear()} The Alpha Rig
           </p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">

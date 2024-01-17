@@ -2,7 +2,7 @@ import React from "react";
 import { service } from "@/constant/contant";
 import Heading from "@/utils/Heading";
 
-const ServiceSection = () => {
+const ServiceSection = ({ notitle }: { notitle?: boolean }) => {
   return (
     <div className="bg-background">
       <div className="container mx-auto">
@@ -10,7 +10,7 @@ const ServiceSection = () => {
           <div className=" xl:px-0 py-10">
             <div className="flex flex-col lg:flex-row flex-wrap">
               <div className="mt-4 lg:mt-0 lg:w-3/5">
-                  <Heading title="Service"/>
+                {notitle === true ? "" : <Heading title="Service" />}
               </div>
             </div>
           </div>
@@ -20,11 +20,6 @@ const ServiceSection = () => {
                 <div key={idx}>
                   <div className="bg-secondary hover:bg-primary transition-all duration-1000 p-5 rounded-md relative h-full w-full">
                     <span className="">
-                      {/* <img
-                        className="bg-gray-200 dark:bg-background p-2 mb-5 rounded-full"
-                        src="https://i.ibb.co/27R6nk5/home-1.png"
-                        alt="home-1"
-                      /> */}
                       <div
                         dangerouslySetInnerHTML={{ __html: item.icon }}
                         className=" text-primary bg-background p-2 mb-5 rounded-full w-12 h-12 flex items-center justify-center"

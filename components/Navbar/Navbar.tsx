@@ -15,7 +15,7 @@ function toggleInput(inputElement: any) {
 const Navbar = () => {
   return (
     <div className="">
-      <div className="navigation">
+      <div className="navigation ">
         <input
           type="checkbox"
           className="navigation__checkbox"
