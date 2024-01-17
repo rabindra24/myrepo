@@ -1,7 +1,6 @@
-"use client"
 import Image from "next/image";
 import React from "react";
-import { Button } from "@/components/ui/button"
+import Link from "next/link";
 // import { Bungee_Outline } from "next/font/google";
 
 // const bungee = Bungee_Outline({weight : ["400"], subsets : ['latin']})
@@ -34,7 +33,7 @@ const Landing = () => {
           Custom Websites, Branding & Digital Marketing Solutions{" "}
         </p>
 
-        <Button  className=" c-btn font-bold -primary-v2 -dark -see hover:bg-transparent hover:text-white py-6 px-10 ImportantWhite">Contact us</Button>
+        <Link href={'/contact'} className=" c-btn font-bold -primary-v2 -dark -see hover:bg-transparent hover:text-white py-6 px-10 ImportantWhite">Contact us</Link>
       </div>
     </div>
   );

@@ -62,7 +62,7 @@ const ContactComponent = () => {
         </div>
       </div>
       <div className="lg:w-1/2 flex w-full  items-center justify-center ">
-        <Image src={'/107.gif'} width={350} height={350} alt="Contact Image " className="mx-auto " loading="lazy"/>
+        <Image src={'/107.gif'} width={350} height={350} alt="Contact Image " className="mx-auto " />
       </div>
     </section>
   );

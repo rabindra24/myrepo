@@ -10,12 +10,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Teck Solutions || The AlphaRig",
   description: "Expert Web Design & Development Help! The Alpha Rig - Your tech support heroes for flawless web development projects. Get top-notch support, fast!",
-  robots : {
-    googleBot : {
-      index : true,
-      follow : true,
-    }
-  }
 };
 
 export default function RootLayout({

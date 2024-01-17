@@ -1,4 +1,4 @@
-import ContactComponent from "@/components/common/ContactComponent";
+"use client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -31,8 +31,12 @@ const Contact = () => {
                 <label htmlFor="name" className="leading-7 text-sm ">
                   Name
                 </label>
-                <Input type="text" id="name" name="name"                   className="bg-transparent border-white"
- />
+                <Input
+                  type="text"
+                  id="name"
+                  name="name"
+                  className="bg-transparent border-white"
+                />
               </div>
             </div>
             <div className="p-2 w-1/2">
@@ -53,8 +57,11 @@ const Contact = () => {
                 <label htmlFor="message" className="leading-7 text-sm ">
                   Message
                 </label>
-                <Textarea id="message" name="message"                   className="bg-transparent border-white"
-></Textarea>
+                <Textarea
+                  id="message"
+                  name="message"
+                  className="bg-transparent border-white"
+                ></Textarea>
               </div>
             </div>
             <div className="p-2 w-full">

@@ -25,19 +25,7 @@ const Process = () => {
             >
               <div className="flex   h-full w-full items-center gap-2">
                 <div className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-background font-bold text-primary mb-5">
-                  {/* <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    className="w-6 h-6"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle cx="6" cy="6" r="3"></circle>
-                    <circle cx="6" cy="18" r="3"></circle>
-                    <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-                  </svg> */}
+                  
                   0{idx + 1}
                 </div>
                 <h2 className="text-lg title-font font-medium mb-3">

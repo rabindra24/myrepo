@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import "./style.css";
 
-function toggleInput(inputElement: any) {
+const toggleInput = (inputElement: any) => {
   if (inputElement.checked) {
     // If checked, uncheck it
     inputElement.checked = false;
@@ -11,7 +11,7 @@ function toggleInput(inputElement: any) {
     // If unchecked, check it
     inputElement.checked = true;
   }
-}
+};
 const Navbar = () => {
   return (
     <div className="">

@@ -1,5 +1,4 @@
 import React from "react";
-
 import Heading from "@/utils/Heading";
 import Image from "next/image";
 import ContactComponent from "@/components/common/ContactComponent";
