@@ -10,13 +10,13 @@ import Team from "@/utils/Team";
 export default function Home() {
   return (
     <main className="bg-background">
-      <Landing />
+      {/* <Landing />
       <ServiceSection />
       <Works />
       <Process />
       <Team />
       <Testomonials/>
-      <ContactComponent/>
+      <ContactComponent/> */}
     </main>
   );
 }
