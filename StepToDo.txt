@@ -1,0 +1,34 @@
+Use DigitalSilk For Design and for content use DigitalInk
+
+Pages : Home, About, Contact , Services
+
+Social Links : LinkedIn, Instagram
+
+Navbar Styling : file:///G:/webdevelopment/AdvanceCss/Natours/final-after-S06/index.html
+
+HomePage : 1) Landing Section, 
+           2) Services
+           3) Works 
+           4) Design Process 
+           5) About Us (small Description) and read more button
+           6) Reviews 4 to 6
+           7) Contact 
+           8) Footer
+
+AboutPage : 1) Description About Company
+            2) Legality and term & Condition
+            3) Our Team
+            4) Contact Section
+            5) Footer
+
+ContactPage : 1) Contact Form   // ZOD
+              2) Info about comapany
+              3) Footer
+
+ServicePage : 1) A Tag Line 
+              2) Services
+              3) Contact 
+              4) Footer
+
+SEO & Performance Improvement
+
