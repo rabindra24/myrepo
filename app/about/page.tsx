@@ -1,13 +1,13 @@
-import ContactComponent from "@/components/common/ContactComponent";
-import Heading from "@/utils/Heading";
-import Team from "@/utils/Team";
-import Image from "next/image";
+// import ContactComponent from "@/components/common/ContactComponent";
+// import Heading from "@/utils/Heading";
+// import Team from "@/utils/Team";
+// import Image from "next/image";
 import React from "react";
 
 const About = () => {
   return (
     <div className="relative top-0 min-h-screen bg-background">
-      <div className="w-full h-full bg-red-500 ">
+      {/* <div className="w-full h-full bg-red-500 ">
         <Image
           src={"/contact_banner.jpg"}
           width={600}
@@ -21,7 +21,7 @@ const About = () => {
         <div>liquid laboriosam porro quibusdam temporibus ipsa quaerat autem molestiae est mollitia, aliquam eligendi maiores odio minus ad? Asperiores, reprehenderit culpa neque maiores libvoluptatum laboriosam praesentium laborum dolores ab facilis modi libero harum consequatur quam adipisci error ullam officiis quod hic, autem possimus reprehenderit!</div>
       </div>
       <Team/>
-      <ContactComponent/>
+      <ContactComponent/> */}
     </div>
   );
 };
