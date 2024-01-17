@@ -1,13 +1,9 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+
 import Heading from "@/utils/Heading";
 import Image from "next/image";
-import Team from "@/utils/Team";
 import ContactComponent from "@/components/common/ContactComponent";
 import ServiceSection from "@/components/Homepage/ServiceSection";
-import Process from "@/components/Homepage/Process";
 
 const Service = () => {
   return (
@@ -32,7 +28,7 @@ const Service = () => {
           reprehenderit!
         </div>
       </div>
-      <ServiceSection notitle={true}/>
+      <ServiceSection notitle={true} />
       <ContactComponent />
     </div>
   );

@@ -1,4 +1,5 @@
 import { FooterLinks } from "@/constant/contant";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -37,9 +38,9 @@ const Footer = () => {
               <nav className="list-none mb-10">
                 {links.map((item,idx) => (
                   <li key={`${idx}` + item.subTitle}>
-                    <a className="text-gray-600 hover:text-gray-800">
+                    <Link href={item.link} className="text-gray-600 hover:text-gray-800">
                       {item.subTitle}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </nav>
