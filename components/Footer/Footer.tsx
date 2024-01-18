@@ -1,6 +1,6 @@
-import { FooterLinks } from "@/constant/contant";
-import Link from "next/link";
-import React from "react";
+// import { FooterLinks } from "@/constant/contant";
+// import Link from "next/link";
+// import React from "react";
 
 const Footer = () => {
   return (

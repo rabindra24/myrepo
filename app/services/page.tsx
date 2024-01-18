@@ -1,8 +1,8 @@
-import React from "react";
-import Heading from "@/utils/Heading";
-import Image from "next/image";
-import ContactComponent from "@/components/common/ContactComponent";
-import ServiceSection from "@/components/Homepage/ServiceSection";
+// import React from "react";
+// import Heading from "@/utils/Heading";
+// import Image from "next/image";
+// import ContactComponent from "@/components/common/ContactComponent";
+// import ServiceSection from "@/components/Homepage/ServiceSection";
 
 const Service = () => {
   return (
@@ -28,7 +28,7 @@ const Service = () => {
         </div>
       </div>
       <ServiceSection notitle={true} />
-      <ContactComponent /> */}
+      <ContactComponent /> */}service
     </div>
   );
 };

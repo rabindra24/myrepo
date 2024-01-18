@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div> */} contact
     </section>
   );
 };

@@ -2,7 +2,7 @@
 // import Heading from "@/utils/Heading";
 // import Team from "@/utils/Team";
 // import Image from "next/image";
-import React from "react";
+// import React from "react";
 
 const About = () => {
   return (
@@ -21,7 +21,9 @@ const About = () => {
         <div>liquid laboriosam porro quibusdam temporibus ipsa quaerat autem molestiae est mollitia, aliquam eligendi maiores odio minus ad? Asperiores, reprehenderit culpa neque maiores libvoluptatum laboriosam praesentium laborum dolores ab facilis modi libero harum consequatur quam adipisci error ullam officiis quod hic, autem possimus reprehenderit!</div>
       </div>
       <Team/>
+      
       <ContactComponent/> */}
+      About
     </div>
   );
 };

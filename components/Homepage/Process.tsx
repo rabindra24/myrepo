@@ -1,7 +1,7 @@
-import Image from "next/image";
-import React from "react";
-import { designProcess } from "@/constant/contant";
-import Heading from "@/utils/Heading";
+// import Image from "next/image";
+// import React from "react";
+// import { designProcess } from "@/constant/contant";
+// import Heading from "@/utils/Heading";
 
 const Process = () => {
   return (

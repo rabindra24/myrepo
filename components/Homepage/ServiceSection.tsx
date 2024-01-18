@@ -1,6 +1,6 @@
-import React from "react";
-import { service } from "@/constant/contant";
-import Heading from "@/utils/Heading";
+// import React from "react";
+// import { service } from "@/constant/contant";
+// import Heading from "@/utils/Heading";
 
 const ServiceSection = ({ notitle }: { notitle?: boolean }) => {
   return (

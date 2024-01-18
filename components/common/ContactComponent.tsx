@@ -1,15 +1,15 @@
-"use client";
-import React from "react";
-import { Input } from "../ui/input";
-import Heading from "@/utils/Heading";
-import { Button } from "../ui/button";
-import { Textarea } from "../ui/textarea";
-import Image from "next/image";
+// "use client";
+// import React from "react";
+// import { Input } from "../ui/input";
+// import Heading from "@/utils/Heading";
+// import { Button } from "../ui/button";
+// import { Textarea } from "../ui/textarea";
+// import Image from "next/image";
 
 const ContactComponent = () => {
   return (
     <section className="text-gray-300 body-font relative flex md:flex-row flex-col h-full md:px-10 px-5 ">
-      <div className="container px-5 py-24   lg:w-1/2">
+      {/* <div className="container px-5 py-24   lg:w-1/2">
         <div className="flex flex-col  mb-12">
          <Heading title="Contact Us" styles="mb-3"/>
           <p className="lg:w-2/3  leading-relaxed text-base">
@@ -63,7 +63,7 @@ const ContactComponent = () => {
       </div>
       <div className="lg:w-1/2 flex w-full  items-center justify-center ">
         <Image src={'/107.gif'} width={350} height={350} alt="Contact Image " className="mx-auto " />
-      </div>
+      </div> */}
     </section>
   );
 };

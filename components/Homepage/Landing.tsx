@@ -1,6 +1,6 @@
-import Image from "next/image";
-import React from "react";
-import Link from "next/link";
+// import Image from "next/image";
+// import React from "react";
+// import Link from "next/link";
 // import { Bungee_Outline } from "next/font/google";
 
 // const bungee = Bungee_Outline({weight : ["400"], subsets : ['latin']})

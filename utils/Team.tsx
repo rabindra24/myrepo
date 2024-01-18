@@ -1,12 +1,11 @@
-import Image from "next/image";
+// import Image from "next/image";
 import React from "react";
-import Heading from "./Heading";
+// import Heading from "./Heading";
 
 const Team = () => {
   const arr = [1, 2, 3, 3];
   return (
     <div>
-      {/* <!-- component --> */}
       <div className="py-20 ">
         {/* <div className="container  px-6 md:px-12 ">
           <div className="mb-16 ">
