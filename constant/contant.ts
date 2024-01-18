@@ -213,7 +213,7 @@ export const works : WorksTypes[]=[
     description : 'lorem Hell How are You i am fine'
   },
   {
-    image : '/home7.png',
+    image : '/home7.jpg',
     title : 'Project',
     description : 'lorem Hell How are You i am fine'
   },
