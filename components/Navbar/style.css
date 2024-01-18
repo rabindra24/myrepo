@@ -35,9 +35,9 @@
   position: fixed;
   top: 2rem;
   right: 3rem;
-  /* background-image: radial-gradient(#163a5a, #5d25a2fd); */
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(20px);
+  background-image: radial-gradient(#163a5a, #5d25a2fd);
+  /* -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px); */
   z-index: 1000;
   border: 3px solid white;
   -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
