@@ -5,7 +5,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="text-gray-300 body-font bg-background py-10">
-      <div className="container px-5 py-14 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      {/* <div className="container px-5 py-14 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <span className="flex title-font font-medium items-center md:justify-start justify-center ">
             <svg
@@ -47,7 +47,7 @@ const Footer = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };
