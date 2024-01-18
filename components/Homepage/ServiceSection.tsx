@@ -1,11 +1,11 @@
-// import React from "react";
-// import { service } from "@/constant/contant";
-// import Heading from "@/utils/Heading";
+import React from "react";
+import { service } from "@/constant/contant";
+import Heading from "@/utils/Heading";
 
 const ServiceSection = ({ notitle }: { notitle?: boolean }) => {
   return (
     <div className="bg-background">
-      {/* <div className="container mx-auto">
+      <div className="container mx-auto">
         <div className="bg-background py-12 md:px-8">
           <div className=" xl:px-0 py-10">
             <div className="flex flex-col lg:flex-row flex-wrap">
@@ -81,7 +81,7 @@ const ServiceSection = ({ notitle }: { notitle?: boolean }) => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

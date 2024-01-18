@@ -1,13 +1,13 @@
-// import ContactComponent from "@/components/common/ContactComponent";
-// import Heading from "@/utils/Heading";
-// import Team from "@/utils/Team";
-// import Image from "next/image";
-// import React from "react";
+import ContactComponent from "@/components/common/ContactComponent";
+import Heading from "@/utils/Heading";
+import Team from "@/utils/Team";
+import Image from "next/image";
+import React from "react";
 
 const About = () => {
   return (
     <div className="relative top-0 min-h-screen bg-background">
-      {/* <div className="w-full h-full bg-red-500 ">
+      <div className="w-full h-full bg-red-500 ">
         <Image
           src={"/contact_banner.jpg"}
           width={600}
@@ -22,7 +22,7 @@ const About = () => {
       </div>
       <Team/>
       
-      <ContactComponent/> */}
+      <ContactComponent/>
       About
     </div>
   );

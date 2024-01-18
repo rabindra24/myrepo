@@ -1,12 +1,12 @@
-// import Image from "next/image";
-// import React from "react";
-// import { designProcess } from "@/constant/contant";
-// import Heading from "@/utils/Heading";
+import Image from "next/image";
+import React from "react";
+import { designProcess } from "@/constant/contant";
+import Heading from "@/utils/Heading";
 
 const Process = () => {
   return (
     <section className=" bg-background md:px-10 px-3">
-      {/* <Heading title="Design Process" styles="mb-10" />
+      <Heading title="Design Process" styles="mb-10" />
       <div className="container px-5  mx-auto flex flex-wrap ">
         <div className="lg:w-1/2 w-full mb-10 lg:mb-0 relative  rounded-lg h-100 ">
           <Image
@@ -38,7 +38,7 @@ const Process = () => {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };

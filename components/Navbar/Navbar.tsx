@@ -15,7 +15,7 @@ const toggleInput = (inputElement: any) => {
 const Navbar = () => {
   return (
     <div className="">
-      {/* <div className="navigation ">
+      <div className="navigation ">
         <input
           type="checkbox"
           className="navigation__checkbox"
@@ -64,7 +64,7 @@ const Navbar = () => {
             </Link>
           </ul>
         </nav>
-      </div> */}
+      </div>
     </div>
   );
 };

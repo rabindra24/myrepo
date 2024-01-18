@@ -1,14 +1,14 @@
-// "use client";
-// import { Button } from "@/components/ui/button";
-// import { Input } from "@/components/ui/input";
-// import { Textarea } from "@/components/ui/textarea";
-// import Heading from "@/utils/Heading";
-// import Image from "next/image";
+"use client";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import Heading from "@/utils/Heading";
+import Image from "next/image";
 
 const Contact = () => {
   return (
     <section className="bg-background body-font relative flex justify-center items-center h-screen px-5">
-      {/* <Image
+      <Image
         src={"/contact_banner.jpg"}
         width={600}
         height={300}
@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div> */} contact
+      </div> 
     </section>
   );
 };
