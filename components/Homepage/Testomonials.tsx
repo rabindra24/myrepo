@@ -4,7 +4,7 @@ const Testomonials = () => {
   return (
     <div>
       <section className=" body-font">
-        <div className="container px-5 py-12 mx-auto">
+        {/* <div className="container px-5 py-12 mx-auto">
           <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const Testomonials = () => {
             </h2>
             <p className="text-gray-500">Senior Product Designer</p>
           </div>
-        </div>
+        </div> */}
       </section>
     </div>
   );

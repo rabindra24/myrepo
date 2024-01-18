@@ -9,7 +9,7 @@ import Link from "next/link";
 const Landing = () => {
   return (
     <div className="relative md:min-h-[200vh] h-[100vh] overflow-hidden">
-      <div className=" absolute top-0 left-0 w-full">
+      {/* <div className=" absolute top-0 left-0 w-full">
         <video
           src="background_video.mp4"
           loop
@@ -34,7 +34,7 @@ const Landing = () => {
         </p>
 
         <Link href={'/contact'} className=" c-btn font-bold -primary-v2 -dark -see hover:bg-transparent hover:text-white py-6 px-10 ImportantWhite">Contact us</Link>
-      </div>
+      </div> */}
     </div>
   );
 };

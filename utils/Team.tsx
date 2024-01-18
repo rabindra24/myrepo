@@ -8,7 +8,7 @@ const Team = () => {
     <div>
       {/* <!-- component --> */}
       <div className="py-20 ">
-        <div className="container  px-6 md:px-12 ">
+        {/* <div className="container  px-6 md:px-12 ">
           <div className="mb-16 ">
             <Heading title="Our Team" styles="mb-3"/>
             <p className="text-gray-600 lg:w-8/12 max-w-[700px]">
@@ -36,7 +36,7 @@ const Team = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

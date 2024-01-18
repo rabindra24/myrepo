@@ -8,7 +8,7 @@ const Works = () => {
   return (
     <div className="md:px-16 px-5 bg-background py-20">
       <Heading title="Works" styles="mb-10"/>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {works.map((item, idx) => (
           <div className="works_cardhover overflow-hidden " key={idx}>
             <Image
@@ -24,7 +24,7 @@ const Works = () => {
             </div>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
