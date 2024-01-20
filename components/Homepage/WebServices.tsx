@@ -18,8 +18,8 @@ import { designProcess } from "@/constant/contant";
 const WebServices = () => {
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
   return (
-    <div className="flex flex-col w-full h-full py-10 bg-white px-2">
-      <div className="content text-center space-y-3 py-10">
+    <div className="flex flex-col w-full h-full  bg-white px-2">
+      <div className="content md:text-center space-y-3 px-5 ">
         <h2 className="text-[#3B7BCE]  font-bold md:text-5xl text-4xl">
           Our Website Design Process
         </h2>

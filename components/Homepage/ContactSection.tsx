@@ -38,12 +38,17 @@ const ContactSection = () => {
     },
   });
 
-  const handleSubmit = (values: z.infer<typeof formSchema>) => {
+  const handleSubmit = async (values: z.infer<typeof formSchema>) => {
     console.log(values);
+
+    const sendMain = await fetch('')
+
     toast({
         title : 'WE WILL CONTACT YOU 😍',
         description : 'Have a good day.'
     })
+
+    form.reset()
   };
 
   return (

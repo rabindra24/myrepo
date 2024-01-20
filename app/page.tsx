@@ -23,9 +23,9 @@ export default function Home() {
       {/* <Team /> */}
       <WhyChooseUs/>
       <WebServices/>
+      <HowToChoose/>
       <SignUp/>
       <ContactSection/>
-      {/* <HowToChoose/> */}
     </main>
   );
 }

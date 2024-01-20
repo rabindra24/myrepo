@@ -7,7 +7,7 @@ import "./style.css";
 
 const WhyChooseUs = () => {
   return (
-    <div className="py- bg-white">
+    <div className="py-10 bg-white">
       <div className="flex md:flex-row flex-col items-center justify-between md:px-20 px-5">
         <div className="md:pr-20  w-full items-start md:py-10 py-5 space-y-3">
           <h3 className="text-[#00B9FF] font-bold md:text-2xl text-xl">

@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           {FooterLinks.map(({ links, title },idx) => (
             <div className="lg:w-1/3 md:w-1/2 w-full px-4" key={idx}>
-              <h2 className="title-font font-medium  tracking-widest text-sm mb-3">
+              <h2 className="title-font font-bold   tracking-widest text-lg mb-3">
                 {title}
               </h2>
               <nav className="list-none mb-10">
