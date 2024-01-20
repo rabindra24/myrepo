@@ -51,7 +51,7 @@ const WebServices = () => {
                       <p className="font-bold py-3">In this phase, we:</p>
                       <ul className="space-y-2">
                         {item.list.map((item, index) => (
-                          <li className="flex gap-2 md:text-md text-sm">
+                          <li className="flex gap-2 md:text-md text-sm" key={item+index}>
                             <ArrowBigRight className="text-[#3FC2EE]" /> {item}
                           </li>
                         ))}
