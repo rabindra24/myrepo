@@ -1,14 +1,17 @@
 "use client";
+import ContactSection from "@/components/Homepage/ContactSection";
+import SignUp from "@/components/Homepage/SignUp";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import Heading from "@/utils/Heading";
 import Image from "next/image";
+import './style.css'
 
 const Contact = () => {
   return (
-    <section className="bg-background body-font relative flex justify-center items-center h-screen px-5">
-      <Image
+    <section className="l-sign-up body-font relative flex flex-col min-h-screen py-20">
+      {/* <Image
         src={"/contact_banner.jpg"}
         width={600}
         height={300}
@@ -68,7 +71,9 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div> 
+      </div>  */}
+      <ContactSection/>
+      <SignUp/>
     </section>
   );
 };

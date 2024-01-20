@@ -33,7 +33,7 @@ const Landing = () => {
           Custom Websites, Branding & Digital Marketing Solutions{" "}
         </p>
 
-        <Link href={'/contact'} className=" c-btn font-bold -primary-v2 -dark -see hover:bg-transparent hover:text-white py-6 px-10 ImportantWhite">Contact us</Link>
+        <Link href={'/contact'} className=" c-btn font-bold -primary-v2 -dark -see hover:bg-transparent hover:text-white py-3 px-10 ImportantWhite">Contact us</Link>
       </div>
     </div>
   );

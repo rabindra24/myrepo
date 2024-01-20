@@ -1,0 +1,38 @@
+.aboutContainer {
+  background-image: radial-gradient(
+      circle at left 5%,
+      #304bc7 -6%,
+      rgba(169, 74, 210, 0.4) 32%,
+      #304bc7 97%
+    ),
+    radial-gradient(
+      circle at center right,
+      rgba(110, 0, 186, 0.58) -6%,
+      rgba(128, 83, 255, 0.28) 32%,
+      rgba(2, 157, 255, 0.4) 57%
+    );
+}
+
+.l-sign-up {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center bottom;
+    background-color:#0a0d34;
+    background-image:radial-gradient(circle at 26% bottom,rgba(0,150,255,.33) -27%,rgba(10,13,52,.5) 17%),radial-gradient(circle at 60% bottom,rgba(110,0,186,.5) -7%,#1b1e40 29%);
+    position:relative;
+    overflow:hidden;
+    --h2-font-size:6rem;
+    --vertical-gap:13vmin
+  }
+  .l-sign-up:before {
+    content:"";
+    position:absolute;
+    left:-60%;
+    right:70%;
+    top:-30%;
+    bottom:-30%;
+    background:radial-gradient(ellipse at center,#009cff 0,rgba(0,185,255,0) 70%,rgba(0,185,255,0) 100%);
+    opacity:.45;
+    z-index:1
+  }
+  

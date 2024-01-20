@@ -3,11 +3,53 @@ import Heading from "@/utils/Heading";
 import Image from "next/image";
 import ContactComponent from "@/components/common/ContactComponent";
 import ServiceSection from "@/components/Homepage/ServiceSection";
+import "./styles.css";
+import ContactSection from "@/components/Homepage/ContactSection";
+import SignUp from "@/components/Homepage/SignUp";
+import WhyChooseUs from "@/components/Homepage/WhyChooseUs";
+import { ArrowBigRight } from "lucide-react";
+import { designProcess } from "@/constant/contant";
+import { ProcessTypes } from "@/constant/contant";
+
+const Cards = ({ content,direction }: any) => {
+  return (
+    <div className={`flex ${direction} flex-col l-sign-up outline-none md:px-20 py-10  px-5   border-none relative top-0 z-20`}>
+      <div className="flex-1  flex flex-col justify-center ">
+        <h3 className="text-[#029ccf] md:text-5xl text-2xl mb-4 font-bold">
+          {content.title}
+        </h3>
+        <p className="md:text-md text-md font-regular text-white">
+          Before we put pen to paper or start on your digital design, rather, we
+          conduct thorough research into your industry, competitors and target
+          market to gather insights that will inform your custom digital
+          strategy.
+        </p>
+        <p className="font-bold py-3">In this phase, we:</p>
+        <ul className="space-y-2">
+          {content.list.map((item: string, index: number) => (
+            <li className="flex gap-2 md:text-md text-sm text-white text-md">
+              <ArrowBigRight className="text-white" /> {item}
+            </li>
+          ))}
+        </ul>
+      </div>
+      <div className="flex-1">
+        <Image
+          src={content.image}
+          width={300}
+          height={300}
+          alt="sevice"
+          className="w-full"
+        />
+      </div>
+    </div>
+  );
+};
 
 const Service = () => {
   return (
-    <div className="relative top-0 min-h-screen bg-background">
-      <div className="w-full h-full bg-red-500 ">
+    <div className="relative top-0 min-h-screen l-sign-up">
+      {/* <div className="w-full h-full ">
         <Image
           src={"/contact_banner.jpg"}
           width={600}
@@ -26,9 +68,15 @@ const Service = () => {
           quam adipisci error ullam officiis quod hic, autem possimus
           reprehenderit!
         </div>
-      </div>
-      <ServiceSection notitle={true} />
-      <ContactComponent />
+      </div> */}
+      {/* <ServiceSection notitle={true} /> */}
+      {/* <ContactComponent /> */}
+      {designProcess.map((item,index) => (
+        <Cards content={item} direction={`${(index + 1) % 2 == 0 ? 'md:flex-row-reverse' : 'md:flex-row'}`} />
+      ))}
+      <WhyChooseUs />
+      <SignUp />
+      <ContactSection />
     </div>
   );
 };

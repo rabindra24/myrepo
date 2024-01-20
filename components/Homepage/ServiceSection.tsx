@@ -4,9 +4,9 @@ import Heading from "@/utils/Heading";
 
 const ServiceSection = ({ notitle }: { notitle?: boolean }) => {
   return (
-    <div className="bg-background">
+    <div className="">
       <div className="container mx-auto">
-        <div className="bg-background py-12 md:px-8">
+        <div className=" py-12 md:px-8">
           <div className=" xl:px-0 py-10">
             <div className="flex flex-col lg:flex-row flex-wrap">
               <div className="mt-4 lg:mt-0 lg:w-3/5">

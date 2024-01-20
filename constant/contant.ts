@@ -185,158 +185,204 @@ export const service: ServiceTypes[] = [
   },
 ];
 
-
 interface WorksTypes {
+  image: string;
+  title: string;
+  description: string;
+}
+export const works: WorksTypes[] = [
+  {
+    image: "/home2.png",
+    title: "Project",
+    description: "lorem Hell How are You i am fine",
+  },
+  {
+    image: "/home6.png",
+    title: "Project",
+    description: "lorem Hell How are You i am fine",
+  },
+  {
+    image: "/home3.png",
+    title: "Project",
+    description: "lorem Hell How are You i am fine",
+  },
+  {
+    image: "/home5.png",
+    title: "Project",
+    description: "lorem Hell How are You i am fine",
+  },
+  {
+    image: "/home7.jpg",
+    title: "Project",
+    description: "lorem Hell How are You i am fine",
+  },
+  // {
+  //   image : '/hom8.png',
+  //   title : 'Project',
+  //   description : 'lorem Hell How are You i am fine'
+  // },
+];
+
+export interface ProcessTypes {
+  title: string;
+  description: string;
+  list: string[];
   image : string,
-  title : string,
-  description : string
 }
-export const works : WorksTypes[]=[
+export const designProcess: ProcessTypes[] = [
   {
-    image : '/home2.png',
-    title : 'Project',
-    description : 'lorem Hell How are You i am fine'
+    title: "Web Strategy",
+    description:
+      "Before we put pen to paper (or start on your digital design, rather), we conduct thorough research into your industry, competitors and target market to gather insights.",
+    list: [
+      "Identify the ideal positioning for your brand",
+      "Collect target audience data and create user personas",
+      "Define valuable content and marketing channels",
+      "Define KPIs to measure performance",
+    ],
+    image : '/1_WEB_STRATEGY-2.png.webp'
   },
   {
-    image : '/home6.png',
-    title : 'Project',
-    description : 'lorem Hell How are You i am fine'
+    title: "Planning & Information Architecture",
+    description:
+      "Next, we map out your unique landing pages and define your site map and navigation. We create a plan for SEO strategy.",
+    list: [
+      "Design your site structure, navigation and page hierarchy",
+      "Map out the conversion funnel for each unique landing page",
+      "Create black and white wireframes to show you the bones of your new site",
+    ],
+    image : '/2_PLANNING__INFORMATION_ARCHITECTURE-1.png.webp'
   },
   {
-    image : '/home3.png',
-    title : 'Project',
-    description : 'lorem Hell How are You i am fine'
+    title: "Responsive Development",
+    description:
+      "In the development phase, our expert development team works behind the scenes to build a custom, secure and scalable solution for your brand, on your chosen platform.",
+    list: [
+      "Write and finalize coding for your website",
+      "Bring your custom solution to life in a secure staging site",
+      "Ensure a responsive solution for both desktop and mobile",
+    ],
+    image : '/4_RESPONSIVE_DEVELOPMENT-1.png.webp'
   },
   {
-    image : '/home5.png',
-    title : 'Project',
-    description : 'lorem Hell How are You i am fine'
+    title: "Launch & Optimization",
+    description:
+      "When our QA is complete, it&apos;s time for launch! Our team will set up your server,  make sure all updates are finalized. We&apos;ll provide security protection, along with both internal and external monitoring.",
+    list: [
+      "Perform final QA testing",
+      "Devise a marketing plan for launch",
+      "Push your new digital solution live",
+    ],
+    image : '/6_LAUNCH__OPTIMIZATION-1.png.webp'
   },
-  {
-    image : '/home7.jpg',
-    title : 'Project',
-    description : 'lorem Hell How are You i am fine'
-  },
-  {
-    image : '/hom8.png',
-    title : 'Project',
-    description : 'lorem Hell How are You i am fine'
-  },
-]
-
-
-interface ProcessTypes {
-  title : string,
-  description : string,
-}
-export const designProcess : ProcessTypes[] =[
-  {
-    title : 'Web Strategy',
-    description : 'Before we put pen to paper (or start on your digital design, rather), we conduct thorough research into your industry, competitors and target market to gather insights.',
-  },
-  {
-    title : 'Planning & Information Architecture',
-    description : 'Next, we map out your unique landing pages and define your site map and navigation. We create a plan for SEO strategy.',
-  },
-  {
-    title : 'Responsive Development',
-    description : 'In the development phase, our expert development team works behind the scenes to build a custom, secure and scalable solution for your brand, on your chosen platform.',
-  },
-  {
-    title : 'Launch & Optimization',
-    description : 'When our QA is complete, it&apos;s time for launch! Our team will set up your server,  make sure all updates are finalized. We&apos;ll provide security protection, along with both internal and external monitoring.',
-  },
-]
+];
 
 interface FooterTypes {
-  title : string,
-  links : {
-    link : string,
-    subTitle : string
-  }[]
+  title: string;
+  links: {
+    link: string;
+    subTitle: string;
+  }[];
 }
 
-export const FooterLinks : FooterTypes[] =[
+export const FooterLinks: FooterTypes[] = [
   {
-    title : 'Categories',
-    links : [
+    title: "Pages",
+    links: [
       {
-        link : '/',
-        subTitle : 'Home'
+        link: "/",
+        subTitle: "Home",
       },
       {
-        link : '/about',
-        subTitle : 'About'
+        link: "/about",
+        subTitle: "About",
       },
       {
-        link : '/Contact',
-        subTitle : 'Contact'
+        link: "/Contact",
+        subTitle: "Contact",
       },
       {
-        link : '/services',
-        subTitle : 'Services'
+        link: "/services",
+        subTitle: "Services",
       },
-    ]
+    ],
   },
   {
-    title : 'Categories',
-    links : [
+    title: "Services",
+    links: [
       {
-        link : '/',
-        subTitle : 'Home'
+        link: "/contact",
+        subTitle: "Web Development",
       },
       {
-        link : '/about',
-        subTitle : 'About'
+        link: "/contact",
+        subTitle: "Website Design",
       },
       {
-        link : '/Contact',
-        subTitle : 'Contact'
+        link: "/contact",
+        subTitle: "UI UX design",
       },
       {
-        link : '/services',
-        subTitle : 'Services'
+        link: "/contact",
+        subTitle: "Responsive Web Design",
       },
-    ]
+    ],
   },
   {
-    title : 'Categories',
-    links : [
+    title: "Social",
+    links: [
       {
-        link : '/',
-        subTitle : 'Home'
+        link: "/",
+        subTitle: "Instaram",
       },
       {
-        link : '/about',
-        subTitle : 'About'
+        link: "/about",
+        subTitle: "Facebook",
       },
       {
-        link : '/Contact',
-        subTitle : 'Contact'
+        link: "/Contact",
+        subTitle: "Whatsapp",
       },
-      {
-        link : '/services',
-        subTitle : 'Services'
-      },
-    ]
+    ],
   },
-]
+];
 
+// New Changes ///////////////
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export const newServices = [
+  {
+    title: "Custom Web Design",
+    content:
+      "Each of our website designs are tailored to create a 100% unique experience. This way, we deliver a site that connects with your audience.",
+    link: "",
+    image: "/Rectangle-10539.png.webp",
+  },
+  {
+    title: "Professional Web Design",
+    content:
+      "Partnering with us means unlocking unrivalled industry expertise. Our professional designs are created to drive authority and credibility for your business.",
+    link: "",
+    image: "/Rectangle-10539w.png.webp",
+  },
+  {
+    title: "Website Development",
+    content:
+      "Each of our website designs are tailored to create a 100% unique experience. This way, we deliver a site that connects with your audience.",
+    link: "",
+    image: "/Rectangle-10539ww.png.webp",
+  },
+  {
+    title: "Responsive Web Design",
+    content:
+      "We create seamless user experiences for all. Whether screen size alterations or device optimizations, our responsive designs exceed expectations for every user.",
+    link: "",
+    image: "/Rectangle-10539www.png.webp",
+  },
+  {
+    title: "UI/UX Web Design",
+    content:
+      "With trusted methods and innovative approaches, our team of award-winning designers provide engaging visual experiences and user journeys.",
+    link: "",
+    image: "/Rectangle-10539wwww.png.webp",
+  },
+];
