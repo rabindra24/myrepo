@@ -43,7 +43,8 @@
   -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
-  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1),-webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1),
+    -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
 }
 @media only screen and (max-width: 56.25em) {
   .navigation__background {
@@ -123,7 +124,7 @@
 }
 .navigation__icon {
   position: relative;
-  margin-top: 1.5rem;  /* Navigation icon position */
+  margin-top: 1.5rem; /* Navigation icon position */
 }
 .navigation__icon,
 .navigation__icon::before,

@@ -1,8 +1,6 @@
-import { newServices, works } from "@/constant/contant";
-import { ArrowRight } from "lucide-react";
+import { newServices } from "@/constant/contant";
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+
 import "./style.css";
 
 const WhyChooseUs = () => {

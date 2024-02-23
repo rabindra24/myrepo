@@ -1,5 +1,4 @@
 import React from 'react'
-import HowToChooseArticle from './HowToChooseArticle'
 
 const HowToChoose = () => {
   return (
